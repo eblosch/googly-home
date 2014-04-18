@@ -1,0 +1,176 @@
+/* -----------------------------------------------
+ * Utilities
+ * ---------------------------------------------- */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.notice {
+    color: red;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+img {
+    display: block;
+}
+
+/* -----------------------------------------------
+ * Scaffolding
+ * ---------------------------------------------- */
+* {
+    margin: 0; /* maybe redundant */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+header {
+    padding: 0 30px 0 0;
+}
+
+#content {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -25px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer,
+.push {
+    height: 25px;
+}
+
+.footer-content {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+/* -----------------------------------------------
+ * Navigation
+ * ---------------------------------------------- */
+.nav {
+    font-size: 0.8em;
+    padding: 12px 0;
+    color: #666;
+}
+
+.nav > li {
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.btn-share {
+    display: inline-block;
+    padding: 3px 12px;
+    background: #efefef;
+}
+
+.btn-share:hover {
+    background: #ddd;
+}
+
+.img-profile {
+    display: block;
+    border-radius: 50%;
+}
+
+/* -----------------------------------------------
+ * Search Box
+ * ---------------------------------------------- */
+
+.search-box {
+    width: 550px;
+    margin: 0 auto;
+    padding: 135px 0 0;
+}
+
+.g-logo {
+    width: 269px;
+    height: 95px;
+}
+
+input[type="text"] {
+    width: 100%;
+    outline: none;
+    border-style: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 20px 0 20px;
+}
+
+.speak-easy {
+    position: relative;
+}
+
+.speak-easy > .fa-microphone {
+    position: absolute;
+    top: 28px;
+    right: -10px;
+}
+
+.button-panel {
+    text-align: center;
+}
+
+.button-panel button {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 2px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.button-panel button:last-child {
+    margin-right: 0;
+}
+
+/* -----------------------------------------------
+ * Footer
+ * ---------------------------------------------- */
+
+.ad-links {
+    margin-left: 30px;
+}
+.policy-links {
+    margin-right: 30px;
+}
